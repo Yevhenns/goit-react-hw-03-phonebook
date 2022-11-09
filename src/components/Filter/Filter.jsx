@@ -5,7 +5,7 @@ import css from './styles.module.css';
 
 export const Filter = ({ value, onChange }) => {
   return (
-    <div className={css.container}>
+    <div className={css.filterContainer}>
       <label htmlFor="find">Find contacts by name</label>
       <input id="find" value={value} onChange={onChange} />
     </div>
